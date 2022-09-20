@@ -1,9 +1,6 @@
 const fs = require('fs');
 
 
-
-
-
 class Contenedor {
     constructor(rutaArchivo) {
         this.rutaArchivo = rutaArchivo
@@ -134,7 +131,7 @@ const contenedor = new Contenedor('./productos.txt');
 
 /* contenedor.deleteById(3).then(console.log) */
 
-contenedor.deleteAll()
+/* contenedor.deleteAll() */
 
 /*  contenedor.getAll().then(console.log) */
 
